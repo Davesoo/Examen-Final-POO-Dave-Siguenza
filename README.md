@@ -24,7 +24,7 @@ Aplicación de escritorio en **Java Swing** bajo arquitectura **MVC**, que permi
 ## ⚙️ Instrucciones de uso
 1. **Clonar repositorio:**
    ```bash
-   git clone [url]
+   git clone []
 2. **Capturas de pantalla:**
 
     Login (Usuario: admin - Contraseña: 1234)
@@ -60,67 +60,5 @@ Aplicación de escritorio en **Java Swing** bajo arquitectura **MVC**, que permi
     ![alt text](image-7.png)
 
 ## Diagrama UML
-┌────────────────────────┐
-│        Usuario         │<<abstract>>
-│------------------------│
-│ - nombre: String       │
-│ - usuario: String      │
-│ - password: String     │
-│------------------------│
-│ + getRol(): String     │
-└───────────▲────────────┘
-            │
- ┌──────────┴──────────┐
- │                     │
- │Recepcionista        │
- │Administrador        │
- └─────────────────────┘
 
-┌────────────────────────┐
-│        Cliente         │
-│------------------------│
-│ - nombre: String       │
-│ - apellido: String     │
-│ - documento: String    │
-│------------------------│
-│ + getNombreCompleto()  │
-└────────────────────────┘
-
-┌────────────────────────┐
-│       Habitacion       │
-│------------------------│
-│ - numero: int          │
-│ - tipo: TipoHabitacion │
-│ - disponible: boolean  │
-│------------------------│
-│ + isDisponible()       │
-└────────────────────────┘
-
-┌────────────────────────┐
-│        Reserva         │<<implements Pago>>
-│------------------------│
-│ - cliente: Cliente     │
-│ - habitacion: Habitacion│
-│ - fechaInicio: Date    │
-│ - fechaFin: Date       │
-│ - precio: double       │
-│------------------------│
-│ + calcularTotal():double│
-└────────────────────────┘
-
-┌────────────────────────┐
-│        Pago (I)        │
-│------------------------│
-│ + calcularTotal():double│
-└────────────────────────┘
-
-┌────────────────────────┐
-│     ReservaDAO         │
-│------------------------│
-│ - reservas: List       │
-│------------------------│
-│ + crearReserva(r)      │
-│ + listar(): List       │
-└────────────────────────┘
-
-Enum: TipoHabitacion { INDIVIDUAL, DOBLE, SUITE }
+![alt text](image-8.png)
