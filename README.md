@@ -27,9 +27,7 @@ Aplicación de escritorio en **Java Swing** bajo arquitectura **MVC**, que permi
    git clone [url]
 2. **Capturas de pantalla:**
 
-    Login
-    Usuario: admin
-    Contraseña: 1234
+    Login (Usuario: admin - Contraseña: 1234)
 
     ![alt text](image.png)
 
@@ -58,7 +56,7 @@ Aplicación de escritorio en **Java Swing** bajo arquitectura **MVC**, que permi
     ![alt text](image-6.png)
 
     Reservas solicitadas
-    
+
     ![alt text](image-7.png)
 
 ## Diagrama UML
