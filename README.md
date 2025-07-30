@@ -24,7 +24,7 @@ Aplicación de escritorio en **Java Swing** bajo arquitectura **MVC**, que permi
 ## ⚙️ Instrucciones de uso
 1. **Clonar repositorio:**
    ```bash
-   git clone []
+   git clone [https://github.com/Davesoo/Examen-Final-POO-Dave-Siguenza.git]
 2. **Capturas de pantalla:**
 
     Login (Usuario: admin - Contraseña: 1234)
